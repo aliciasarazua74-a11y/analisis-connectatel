@@ -1,6 +1,6 @@
-# EverPeak Retail Analysis – Sprint 6
+# Analisis-connectatel 
 
-Este repositorio contiene el análisis realizado durante el Sprint 7 del caso ConnectaTel.
+Este repositorio contiene el análisis realizado del caso ConnectaTel.
 El objetivo del estudio es identificar patrones de uso, detectar comportamientos atípicos y comprender qué segmentos de clientes muestran necesidades diferenciadas, con el fin de optimizar la oferta comercial y mejorar la experiencia del usuario.
 
 El dataset `plans.csv` contiene los planes actuales (precio, minutos incluidos, GB incluidos, costo por extra).
@@ -37,4 +37,13 @@ O:
 - Detectar outliers y comportamientos atípicos mediante métodos estadísticos y visuales.
 - Crear segmentaciones de clientes basadas en edad y comportamiento de uso.
 - Visualizar diferencias entre segmentos y extraer insights comerciales relevantes.
-- Documentar todo el proceso en un Jupyter Notebook, junto con un README reproducible para subirlo a GitHub.
+  
+## 📊 Hallazgos
+
+Algunos clientes presentan un comportamiento de uso considerablemente superior al de la mayoría, principalmente en la cantidad de mensajes 11.5, la cantidad de llamadas 10.5 y los minutos acumulados de llamadas 150. En particular, los clientes con una gran cantidad de llamadas o minutos podrían necesitar planes con mayores límites de consumo. Estos patrones también representan una oportunidad para identificar clientes que podrían beneficiarse de planes personalizados. Los valores atípicos no deben eliminarse automáticamente, porque pueden corresponder a comportamientos reales.
+
+## 💡 Recomendaciones
+
+Optimizar el plan para uso medio: al ser el segmento más grande, conviene revisar si el plan actual satisface sus necesidades y ofrece una buena relación entre precio y beneficios.
+Crear un plan para alto uso: ofrecer paquetes con más minutos y mensajes, considerando los hábitos de los usuarios con consumos elevados.
+Diseñar promociones para bajo uso: probar ofertas económicas o beneficios adicionales que incentiven el consumo y ayuden a mantener a estos clientes.
